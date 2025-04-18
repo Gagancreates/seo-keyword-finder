@@ -13,7 +13,7 @@ SEO Keyword Finder is a simple, Python-based tool designed to help you discover 
 1. Ensure you have Python 3 installed on your system.
 2. Clone the repository:
    ```bash
-   git clone https://your-repository-url/seo-keyword-finder.git
+   git clone https://github.com/Gagancreates/seo-keyword-finder
    ```
 3. Navigate to the project directory:
    ```bash
