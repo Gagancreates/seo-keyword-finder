@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from core import extract_keywords
+
 app = Flask(__name__)
 
 @app.route('/tags', methods=['POST'])
