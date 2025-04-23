@@ -13,7 +13,7 @@ SEO Keyword Finder is a simple, Python-based tool designed to help you discover 
 1. Ensure you have Python 3 installed on your system.
 2. Clone the repository:
    ```bash
-   git clone https://your-repository-url/seo-keyword-finder.git
+   git clone https://github.com/Gagancreates/seo-keyword-finder
    ```
 3. Navigate to the project directory:
    ```bash
@@ -24,10 +24,6 @@ SEO Keyword Finder is a simple, Python-based tool designed to help you discover 
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-5. Install the required dependencies (if applicable):
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -36,3 +32,13 @@ To run the application, execute the following command in your terminal:
 ```bash
 python app.py
 ```
+
+Follow the prompts and provide the necessary input to start your keyword analysis.
+```bash
+curl -X POST http://localhost:5000/tags -H "Content-Type: application/json" -d '{"text": "Your full blog post content here..."}'
+```
+
+## Project Structure
+
+- `core.py`: Contains the core functions for keyword processing and analysis.
+- `app.py`: Serves as the entry point to run the application.
